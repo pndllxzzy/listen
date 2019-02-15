@@ -29,13 +29,13 @@ setTimeout(()=>{
 ### API
 
 #### listen(eventNames, function) 事件都触发后执行函数
-eventNames String|Array<String> 事件名称或者事件名称数组，如果为数组则数组内事件都触发后执行参数中的函数
-function   Function             事件触发后执行的函数
++ **eventNames** String|Array\<String> 事件名称或者事件名称数组，如果为数组则数组内事件都触发后执行参数中的函数
++ **function**   Function             事件触发后执行的函数
 
 #### listenOnce(eventNames, function) 事件都触发后执行函数，且函数只执行一次
-eventNames String|Array<String> 事件名称或者事件名称数组，如果为数组则数组内事件都触发后执行参数中的函数
-function   Function             事件触发后执行的函数
++ **eventNames** String|Array\<String> 事件名称或者事件名称数组，如果为数组则数组内事件都触发后执行参数中的函数
++ **function**   Function             事件触发后执行的函数
 
 #### ready(eventNames)  触发事件
-eventNames String|Array<String> 事件名称或者事件名称数组
++ **eventNames** String|Array\<String> 事件名称或者事件名称数组
   
